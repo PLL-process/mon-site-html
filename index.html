@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Cours complet HTML / CSS / JS – Cycle 4</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+<!-- EN-TÊTE PERSONNALISÉE -->
+<div class="header">
+  <img src="images/logo-technologie.jpg" alt="Logo technologie" class="logo">
+  <div class="header-text">
+    <h1>💻 Cours complet HTML / CSS / JavaScript</h1>
+    <p><strong>Niveau :</strong> 4e</p>
+    <p><strong>Démarche pédagogique :</strong> ☑ Démarche d’investigation</p>
+  </div>
+  <img src="images/cycle4-4e.jpg" alt="Cycle 4" class="cycle">
+</div>
+
+<!-- INTRODUCTION -->
+<section>
+  <h2>📘 Présentation de l’activité</h2>
+  <p>Comment créer une page Web lisible, bien structurée, moderne, et pédagogique ? Ce cours progressif permet aux élèves de 4e et 3e de comprendre les bases du HTML, CSS et JavaScript tout en manipulant des outils modernes (CodePen, GitHub Pages, etc.)</p>
+</section>
+
+<!-- COMPÉTENCES -->
+<section>
+  <h2>🎯 Compétences mobilisées</h2>
+  <ul>
+    <li>Comprendre la structure d’une page web (HTML)</li>
+    <li>Appliquer un style via CSS (couleurs, texte, tableaux...)</li>
+    <li>Différencier <code>class</code> et <code>id</code></li>
+    <li>Utiliser des sélecteurs CSS, des styles, des codes hexadécimaux</li>
+    <li>Créer des interactions simples avec JavaScript</li>
+  </ul>
+</section>
+
+<!-- RESSOURCES -->
+<section>
+  <h2>📚 Ressources à lire avant de coder</h2>
+  <ul>
+    <li><a href="https://developer.mozilla.org/fr/docs/Web/HTML">MDN – HTML</a></li>
+    <li><a href="https://developer.mozilla.org/fr/docs/Web/CSS">MDN – CSS</a></li>
+    <li><a href="https://www.w3schools.com/">W3Schools – Tutoriels HTML/CSS/JS</a></li>
+  </ul>
+</section>
+
+<!-- COURS HTML -->
+<section>
+  <h2>📌 Partie 1 – HTML</h2>
+  <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="fr"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Ma page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Bienvenue&lt;/h1&gt;
+    &lt;p&gt;Ceci est ma première page HTML&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+</section>
+
+<!-- COURS CSS -->
+<section>
+  <h2>🎨 Partie 2 – CSS</h2>
+  <pre><code>body {
+  background-color: #121212;
+  color: white;
+  font-family: Verdana, sans-serif;
+}
+.titre {
+  color: red;
+  text-align: center;
+}
+</code></pre>
+</section>
+
+<!-- ACTIVITÉ DE CODAGE -->
+<section>
+  <h2>🧪 Partie 3 – Activité de codage sur CodePen ou GitHub Pages</h2>
+  <p>Crée une page HTML avec un titre, un paragraphe, une liste à puces, un lien vers un site externe, une image, et applique un style CSS personnalisé.</p>
+</section>
+
+<!-- 30 QUESTIONS INTERACTIVES avec correction (déjà dans script.js) -->
+<section>
+  <h2>❓ Partie 4 – Questions interactives (30)</h2>
+  <div id="quiz-container">
+    <!-- JS insère les 30 questions ici -->
+  </div>
+</section>
+
+<!-- JEU DU PENDU -->
+<section>
+  <h2>🎮 Partie 5 – Jeu du pendu : vocabulaire HTML/CSS</h2>
+  <p>Devine un mot-clé comme <code>padding</code>, <code>color</code>, <code>table</code>, etc.</p>
+  <div id="penduGame">
+    <div id="wordDisplay" style="font-size: 24px; letter-spacing: 5px; margin: 10px 0;"></div>
+    <div id="letters"></div>
+    <p>Erreurs : <span id="errors">0</span> / 6</p>
+    <p id="message" style="font-size: 18px; margin-top: 10px;"></p>
+  </div>
+</section>
+
+</body>
+</html>

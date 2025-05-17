@@ -1,0 +1,1 @@
+console.log("Script actif pour le cours HTML/CSS/JS.");
